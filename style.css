@@ -1,0 +1,36 @@
+body {
+  background-color: #fcefee; /* pastel */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem; /* relativo */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%; /* relativo */
+  table-layout: fixed;
+}
+
+thead tr {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  background-color: #eaeaea;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+tbody tr {
+  background-color: #f8f8f8;
+  margin: 0.5rem 0;
+}
